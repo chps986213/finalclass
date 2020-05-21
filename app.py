@@ -1,6 +1,6 @@
 import requests
 from flask import Flask, render_template,request
-import pandas as pd
+#import pandas as pd
 
 app = Flask(__name__) # __name__ 為 python 內建的變數，他會儲存目前程式在哪個模組下執行，如果為__main__代表主程式
 
