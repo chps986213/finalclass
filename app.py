@@ -11,11 +11,7 @@ def home():
 
     return render_template("index.html", title="五官大於三觀")
 
-#@app.route("/It/100") #函式的裝飾 Decorator，以底下函式為基礎，提供附加的功能，這邊 "/" 代表根目錄
 
-#def IT100():
-
-#    return render_template("IT100.html", title="五官大於三觀")
 
 @app.route("/It/200") #函式的裝飾 Decorator，以底下函式為基礎，提供附加的功能，這邊 "/" 代表根目錄
 
